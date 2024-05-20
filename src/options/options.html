@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extension Options</title>
+    <link rel="stylesheet" href="options.css">
+</head>
+<body>
+    <div class="options-container">
+        <header class="options-header">
+            <h1>Extension Options</h1>
+        </header>
+        <main class="options-main">
+            <form id="options-form">
+                <div class="form-group">
+                    <label for="theme-select">Choose Theme:</label>
+                    <select id="theme-select" name="theme">
+                        <option value="dark">Dark</option>
+                        <option value="light">Light</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Enable Features:</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="feature1" value="feature1"> Feature 1</label>
+                        <label><input type="checkbox" name="feature2" value="feature2"> Feature 2</label>
+                        <label><input type="checkbox" name="feature3" value="feature3"> Feature 3</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="save-button">Save Options</button>
+                </div>
+            </form>
+        </main>
+        <footer class="options-footer">
+            <p>&copy; 2024 Your Extension Name</p>
+        </footer>
+    </div>
+</body>
+</html>

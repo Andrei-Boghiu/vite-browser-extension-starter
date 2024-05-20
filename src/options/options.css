@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.options-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    background: #1e1e1e;
+    border: 1px solid #333;
+}
+
+/* Header Styles */
+.options-header {
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.options-header h1 {
+    margin: 0;
+    font-size: 1.8em;
+    color: #ff6f61;
+}
+
+/* Main Content Styles */
+.options-main {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+select, input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+select {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.checkbox-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Button Styles */
+.save-button {
+    background-color: #ff6f61;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+    background-color: #e65b50;
+}
+
+/* Footer Styles */
+.options-footer {
+    border-top: 1px solid #333;
+    padding-top: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #888;
+}
