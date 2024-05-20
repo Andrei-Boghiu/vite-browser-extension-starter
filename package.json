@@ -1,5 +1,5 @@
 {
-	"name": "vite-project",
+	"name": "vite-browser-extension-starter",
 	"description": "A starter template for creating modern browser extensions using Vite, with support for ES module imports and exports.",
 	"private": true,
 	"version": "0.0.0",
